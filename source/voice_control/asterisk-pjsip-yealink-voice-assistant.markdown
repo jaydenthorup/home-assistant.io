@@ -69,9 +69,9 @@ These files are pre-configured and ready to use. You only need to update the IP 
 
 3. Update the Home Assistant IP address in `pjsip.conf`:
    - Find the `[homeassistant]` AOR section
-   - Change `contact=sip:192.168.2.245:5060` to your Home Assistant IP
+   - Change `contact=sip:<homeassistantip>:5060` to your Home Assistant IP
    - Find the `[homeassistant_identify]` section
-   - Change `match=192.168.2.245` to your Home Assistant IP
+   - Change `match=<homeassistantip>` to your Home Assistant IP
 
 4. Update SIP credentials in `[yealink_auth]` section if desired:
    - `username` - SIP username (default: `yealink`)
